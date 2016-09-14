@@ -13,6 +13,22 @@
 		5BED4CEA1D899EB7009220B8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BED4CE81D899EB7009220B8 /* Main.storyboard */; };
 		5BED4CEC1D899EB7009220B8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BED4CEB1D899EB7009220B8 /* Assets.xcassets */; };
 		5BED4CEF1D899EB7009220B8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BED4CED1D899EB7009220B8 /* LaunchScreen.storyboard */; };
+		5BED4CFE1D899F00009220B8 /* animation.js in Resources */ = {isa = PBXBuildFile; fileRef = 5BED4CF71D899F00009220B8 /* animation.js */; };
+		5BED4CFF1D899F00009220B8 /* hello.js in Resources */ = {isa = PBXBuildFile; fileRef = 5BED4CF81D899F00009220B8 /* hello.js */; };
+		5BED4D001D899F00009220B8 /* index.js in Resources */ = {isa = PBXBuildFile; fileRef = 5BED4CF91D899F00009220B8 /* index.js */; };
+		5BED4D011D899F00009220B8 /* template.js in Resources */ = {isa = PBXBuildFile; fileRef = 5BED4CFA1D899F00009220B8 /* template.js */; };
+		5BED4D021D899F00009220B8 /* text-demo.js in Resources */ = {isa = PBXBuildFile; fileRef = 5BED4CFB1D899F00009220B8 /* text-demo.js */; };
+		5BED4D031D899F00009220B8 /* video-demo.js in Resources */ = {isa = PBXBuildFile; fileRef = 5BED4CFC1D899F00009220B8 /* video-demo.js */; };
+		5BED4D041D899F00009220B8 /* web-demo.js in Resources */ = {isa = PBXBuildFile; fileRef = 5BED4CFD1D899F00009220B8 /* web-demo.js */; };
+		5BED4D071D899F61009220B8 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BED4D061D899F61009220B8 /* CoreMedia.framework */; };
+		5BED4D091D899F74009220B8 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BED4D081D899F74009220B8 /* MediaPlayer.framework */; };
+		5BED4D0B1D899F7B009220B8 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BED4D0A1D899F7B009220B8 /* AVFoundation.framework */; };
+		5BED4D0D1D899F82009220B8 /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BED4D0C1D899F82009220B8 /* AVKit.framework */; };
+		5BED4D0F1D899F8C009220B8 /* libicucore.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BED4D0E1D899F8C009220B8 /* libicucore.tbd */; };
+		5BED4D111D899F94009220B8 /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BED4D101D899F94009220B8 /* JavaScriptCore.framework */; };
+		5BED4D141D89A0A5009220B8 /* WeexSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BED4D131D89A0A5009220B8 /* WeexSDK.framework */; };
+		5BED4D181D89A13D009220B8 /* SRWebSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BED4D171D89A13D009220B8 /* SRWebSocket.m */; };
+		5BED4D1A1D89A263009220B8 /* main.js in Resources */ = {isa = PBXBuildFile; fileRef = 5BED4D191D89A263009220B8 /* main.js */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +42,23 @@
 		5BED4CEB1D899EB7009220B8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5BED4CEE1D899EB7009220B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5BED4CF01D899EB7009220B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5BED4CF71D899F00009220B8 /* animation.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = animation.js; path = bundlejs/animation.js; sourceTree = SOURCE_ROOT; };
+		5BED4CF81D899F00009220B8 /* hello.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = hello.js; path = bundlejs/hello.js; sourceTree = SOURCE_ROOT; };
+		5BED4CF91D899F00009220B8 /* index.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = index.js; path = bundlejs/index.js; sourceTree = SOURCE_ROOT; };
+		5BED4CFA1D899F00009220B8 /* template.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = template.js; path = bundlejs/template.js; sourceTree = SOURCE_ROOT; };
+		5BED4CFB1D899F00009220B8 /* text-demo.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = "text-demo.js"; path = "bundlejs/text-demo.js"; sourceTree = SOURCE_ROOT; };
+		5BED4CFC1D899F00009220B8 /* video-demo.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = "video-demo.js"; path = "bundlejs/video-demo.js"; sourceTree = SOURCE_ROOT; };
+		5BED4CFD1D899F00009220B8 /* web-demo.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = "web-demo.js"; path = "bundlejs/web-demo.js"; sourceTree = SOURCE_ROOT; };
+		5BED4D061D899F61009220B8 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		5BED4D081D899F74009220B8 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		5BED4D0A1D899F7B009220B8 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		5BED4D0C1D899F82009220B8 /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
+		5BED4D0E1D899F8C009220B8 /* libicucore.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libicucore.tbd; path = usr/lib/libicucore.tbd; sourceTree = SDKROOT; };
+		5BED4D101D899F94009220B8 /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		5BED4D131D89A0A5009220B8 /* WeexSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = WeexSDK.framework; sourceTree = "<group>"; };
+		5BED4D161D89A13D009220B8 /* SRWebSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRWebSocket.h; sourceTree = "<group>"; };
+		5BED4D171D89A13D009220B8 /* SRWebSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRWebSocket.m; sourceTree = "<group>"; };
+		5BED4D191D89A263009220B8 /* main.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = main.js; path = lib/WeexSDK.framework/main.js; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +66,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5BED4D141D89A0A5009220B8 /* WeexSDK.framework in Frameworks */,
+				5BED4D111D899F94009220B8 /* JavaScriptCore.framework in Frameworks */,
+				5BED4D0F1D899F8C009220B8 /* libicucore.tbd in Frameworks */,
+				5BED4D0D1D899F82009220B8 /* AVKit.framework in Frameworks */,
+				5BED4D0B1D899F7B009220B8 /* AVFoundation.framework in Frameworks */,
+				5BED4D091D899F74009220B8 /* MediaPlayer.framework in Frameworks */,
+				5BED4D071D899F61009220B8 /* CoreMedia.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,8 +82,12 @@
 		5BED4CD31D899EB7009220B8 = {
 			isa = PBXGroup;
 			children = (
+				5BED4D191D89A263009220B8 /* main.js */,
+				5BED4CF61D899EEB009220B8 /* resource */,
+				5BED4D121D89A0A5009220B8 /* lib */,
 				5BED4CDE1D899EB7009220B8 /* WeexDemo */,
 				5BED4CDD1D899EB7009220B8 /* Products */,
+				5BED4D051D899F0D009220B8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +102,7 @@
 		5BED4CDE1D899EB7009220B8 /* WeexDemo */ = {
 			isa = PBXGroup;
 			children = (
+				5BED4D151D89A11D009220B8 /* depedency */,
 				5BED4CE21D899EB7009220B8 /* AppDelegate.h */,
 				5BED4CE31D899EB7009220B8 /* AppDelegate.m */,
 				5BED4CE51D899EB7009220B8 /* ViewController.h */,
@@ -77,6 +122,51 @@
 				5BED4CE01D899EB7009220B8 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5BED4CF61D899EEB009220B8 /* resource */ = {
+			isa = PBXGroup;
+			children = (
+				5BED4CF71D899F00009220B8 /* animation.js */,
+				5BED4CF81D899F00009220B8 /* hello.js */,
+				5BED4CF91D899F00009220B8 /* index.js */,
+				5BED4CFA1D899F00009220B8 /* template.js */,
+				5BED4CFB1D899F00009220B8 /* text-demo.js */,
+				5BED4CFC1D899F00009220B8 /* video-demo.js */,
+				5BED4CFD1D899F00009220B8 /* web-demo.js */,
+			);
+			name = resource;
+			path = WeexDemo;
+			sourceTree = "<group>";
+		};
+		5BED4D051D899F0D009220B8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5BED4D101D899F94009220B8 /* JavaScriptCore.framework */,
+				5BED4D0E1D899F8C009220B8 /* libicucore.tbd */,
+				5BED4D0C1D899F82009220B8 /* AVKit.framework */,
+				5BED4D0A1D899F7B009220B8 /* AVFoundation.framework */,
+				5BED4D081D899F74009220B8 /* MediaPlayer.framework */,
+				5BED4D061D899F61009220B8 /* CoreMedia.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5BED4D121D89A0A5009220B8 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				5BED4D131D89A0A5009220B8 /* WeexSDK.framework */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		5BED4D151D89A11D009220B8 /* depedency */ = {
+			isa = PBXGroup;
+			children = (
+				5BED4D161D89A13D009220B8 /* SRWebSocket.h */,
+				5BED4D171D89A13D009220B8 /* SRWebSocket.m */,
+			);
+			name = depedency;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,9 +226,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5BED4D1A1D89A263009220B8 /* main.js in Resources */,
+				5BED4D011D899F00009220B8 /* template.js in Resources */,
 				5BED4CEF1D899EB7009220B8 /* LaunchScreen.storyboard in Resources */,
+				5BED4CFF1D899F00009220B8 /* hello.js in Resources */,
 				5BED4CEC1D899EB7009220B8 /* Assets.xcassets in Resources */,
+				5BED4D031D899F00009220B8 /* video-demo.js in Resources */,
+				5BED4D001D899F00009220B8 /* index.js in Resources */,
 				5BED4CEA1D899EB7009220B8 /* Main.storyboard in Resources */,
+				5BED4D021D899F00009220B8 /* text-demo.js in Resources */,
+				5BED4D041D899F00009220B8 /* web-demo.js in Resources */,
+				5BED4CFE1D899F00009220B8 /* animation.js in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,6 +247,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5BED4D181D89A13D009220B8 /* SRWebSocket.m in Sources */,
 				5BED4CE71D899EB7009220B8 /* ViewController.m in Sources */,
 				5BED4CE41D899EB7009220B8 /* AppDelegate.m in Sources */,
 				5BED4CE11D899EB7009220B8 /* main.m in Sources */,
@@ -263,8 +362,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/lib",
+				);
 				INFOPLIST_FILE = WeexDemo/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(PROJECT_DIR)/lib $(PROJECT_DIR)";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.voidxin.WeexDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -274,8 +378,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/lib",
+				);
 				INFOPLIST_FILE = WeexDemo/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(PROJECT_DIR)/lib $(PROJECT_DIR)";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.voidxin.WeexDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
