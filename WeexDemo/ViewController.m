@@ -7,7 +7,7 @@
 //
 #import "ViewController.h"
 #import <WeexSDK/WXSDKInstance.h>
-
+#import "ImageDownloadder.h"
 @interface ViewController ()
 
 @property (nonatomic, strong) WXSDKInstance *instance;
@@ -23,7 +23,9 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    //
     
+    //
     UIButton *testBtn = [[UIButton alloc]initWithFrame:CGRectMake(20, 64, 200, 100)];
     [self.view addSubview:testBtn];
     [testBtn setTitle:@"我是原生的按钮哈哈哈" forState:UIControlStateNormal];
@@ -34,6 +36,7 @@
     _weexHeight = self.view.frame.size.height - 64;
     [self.navigationController.navigationBar setHidden:YES];
     [self render];
+    
 }
 
 - (void)dealloc
@@ -66,9 +69,10 @@
     _instance.updateFinish = ^(UIView *view) {
         NSLog(@"update Finish");
     };
-    NSString *url = [NSString stringWithFormat:@"file://%@/animation.js",[NSBundle mainBundle].bundlePath];
+    NSString *url = [NSString stringWithFormat:@"file://%@/hehe.js",[NSBundle mainBundle].bundlePath];
     
     [_instance renderWithURL:[NSURL URLWithString:url] options:@{@"bundleUrl":url} data:nil];
+    
 }
 
 - (void)didReceiveMemoryWarning

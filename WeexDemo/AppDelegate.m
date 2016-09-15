@@ -13,6 +13,8 @@
 #import <WeexSDK/WXLog.h>
 #import <WeexSDK/WXAppConfiguration.h>
 #import <WeexSDK/WeexSDK.h>
+
+#import "ImageDownloadder.h"
 @interface AppDelegate ()
 
 @end
@@ -22,6 +24,21 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+
+    [self weexSetter];
+    [self rootViewSetter];
+    
+    return YES;
+}
+#pragma mark rootViewSetter
+- (void)rootViewSetter{
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    self.window.backgroundColor = [UIColor whiteColor];
+    self.window.rootViewController = [[UINavigationController alloc] initWithRootViewController:[[ViewController alloc] init]];
+    [self.window makeKeyAndVisible];
+}
+#pragma mark  weexSettter
+- (void)weexSetter{
     //业务配置，非必需
     [WXAppConfiguration setAppGroup:@"AliApp"];
     [WXAppConfiguration setAppName:@"WeexDemo"];
@@ -30,13 +47,11 @@
     //初始化SDK环境
     [WXSDKEngine initSDKEnviroment];
     
+    //重写图片加载器
+    [WXSDKEngine registerHandler:[ImageDownloadder new] withProtocol:@protocol(WXImgLoaderProtocol)];
+    
     //设置Log输出等级：调试环境默认为Debug，正式发布会自动关闭。
     [WXLog setLogLevel: WXLogLevelAll];//输出日志
-    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
-    self.window.backgroundColor = [UIColor whiteColor];
-    self.window.rootViewController = [[UINavigationController alloc] initWithRootViewController:[[ViewController alloc] init]];
-    [self.window makeKeyAndVisible];
-    return YES;
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application {
